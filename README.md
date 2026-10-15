@@ -5,11 +5,11 @@ Turma: Banco de Dados - 4o. Período
 Link do repositório: https://github.com/icaj/classroom-lab3.git
 
 ## Reprodução
-- **Python 3.13.2** (o enunciado recomenda 3.11/3.12; usei a 3.13 que já estava instalada e tudo rodou sem ajuste), numpy 2.2.3, pandas 2.2.3, scikit-learn 1.5.2, matplotlib 3.10.6, torch 2.14.1+cpu.
-- Windows 11 Pro, CPU Intel Core i5-10210U (4 threads usadas pelo torch), sem GPU. Dispositivo: `cpu`.
-- Semente: **42** (`fixar_semente(42)` antes de cada modelo; sementes 0–9 só na repetição da forma 4 da Parte C).
-- Execução: `python -m pip install -r requirements.txt`, abrir `lab02.ipynb` e rodar *Restart & Run All*. Pela linha de comando: `jupyter nbconvert --to notebook --execute --inplace lab02.ipynb`. Leva menos de 1 minuto.
-- `apoio.py`: **não modifiquei**.
+- Python 3.13.2 (o enunciado recomenda 3.11/3.12; usei a 3.13 que já estava instalada e tudo rodou sem ajuste), numpy 2.2.3, pandas 2.2.3, scikit-learn 1.5.2, matplotlib 3.10.6, torch 2.14.1+cpu.
+- Windows 11 Pro, CPU Intel Core i5, sem GPU. Dispositivo: `cpu`.
+- Semente: 42 (`fixar_semente(42)` antes de cada modelo; sementes 0–9 só na repetição da forma 4 da Parte C).
+- Execução: `python -m pip install -r requirements.txt`, `python -m jupyterlab` , abrir `lab02.ipynb` e rodar *Restart & Run All*. Leva menos de 1 minuto.
+- `apoio.py`: não foi modificado.
 - Tudo o que o notebook gera fica em `resultados/` (tabelas `.csv`, gráficos `.png`, pesos do modelo final e a decisão congelada em `d_decisao_congelada.json`).
 - Os tempos da A3 mudam um pouco a cada execução; os valores deste relatório são da execução salva no notebook. Os demais números são determinísticos na mesma máquina.
 
