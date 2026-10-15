@@ -1,0 +1,9 @@
+/* Legibilidade e fluxo do enunciado impresso; mantém o tema da skill na tela. */
+@media print {
+  main { padding: 0; max-width: none; }
+  h2, h3, h4 { break-after: avoid; }
+  h3, h4, thead th, code, pre code { color: #111; }
+  .tablewrap { overflow: visible; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+  p, li { orphans: 3; widows: 3; }
+}

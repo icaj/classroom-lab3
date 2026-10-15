@@ -1,0 +1,66 @@
+{
+    "00-LEIA-PRIMEIRO.txt":  {
+                                 "bytes":  760,
+                                 "sha256":  "dff9d48a927af45c3ccdbc436a021862b750cce0d468743db8f5e1354295ff11"
+                             },
+    "apoio.py":  {
+                     "bytes":  4789,
+                     "sha256":  "f6af5d69d886d8a9f471001303d246d7bda75645f7ba244fc40482246c6e6a78"
+                 },
+    "ENUNCIADO.html":  {
+                           "bytes":  32205,
+                           "sha256":  "4630e8c7179aa667fd8f4d74a0c46f96668f4e54bafa3a58b96ecaf4c2175c35"
+                       },
+    "ENUNCIADO.md":  {
+                         "bytes":  27890,
+                         "sha256":  "23fd399dd76272ffb0582fe3156a23796aefdd72a5051ea0c742143144f08f1f"
+                     },
+    "ENUNCIADO.pdf":  {
+                          "bytes":  93070,
+                          "sha256":  "5c610b00ea92de963d611f23942f57810ed6f4b2e2d8dc6231699dd5bfc7b7e6"
+                      },
+    "estilo.css":  {
+                       "bytes":  8115,
+                       "sha256":  "16636d0c1703d08396a22cfd92b625421720fb5232231fbb353b4ad0056325c2"
+                   },
+    "impressao.css":  {
+                          "bytes":  358,
+                          "sha256":  "352664694df4b6de78a5285b788832c4860084aaa47f297408d3a02ef2d9e6f3"
+                      },
+    "lab02.ipynb":  {
+                        "bytes":  17346,
+                        "sha256":  "9ff8c0f9d0b7e54c727c70682a2d5c8f58139af14d79bce9d21831395f64810c"
+                    },
+    "README.md":  {
+                      "bytes":  3172,
+                      "sha256":  "6d0bf1720edaf7a04063b90ebc0b2a9137cee0104f1eeed8219a9a41e8f4ca66"
+                  },
+    "requirements.txt":  {
+                             "bytes":  117,
+                             "sha256":  "ad4c2ba344b508110e1633683f550f264a276f88b8009203cafcb82b9fc52dac"
+                         },
+    "USO-DE-IA.md":  {
+                         "bytes":  520,
+                         "sha256":  "bd5e6396843f67196fe5a4a08e0c0e770c2ab0b8fd56117ec2e27cd38adceefb"
+                     },
+    "dados/DICIONARIO.md":  {
+                                "bytes":  2526,
+                                "sha256":  "1244a1979ecf42aba7999bd57181231cf747b8c45c79d6de74de4ee26b6bb717"
+                            },
+    "dados/FONTE-E-LICENCA.md":  {
+                                     "bytes":  1415,
+                                     "sha256":  "4e60157ca942118522e111b420b05583425e983667798341060389715c6f410f"
+                                 },
+    "dados/winequality-red.csv":  {
+                                      "bytes":  84199,
+                                      "sha256":  "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+                                  },
+    "dados/winequality.names":  {
+                                    "bytes":  3305,
+                                    "sha256":  "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92"
+                                },
+    "resultados/LEIA-ME.txt":  {
+                                   "bytes":  108,
+                                   "sha256":  "b46a076884b0af5685b71b50e66e78212eb525b1a89690cdc94ee00361846073"
+                               }
+}

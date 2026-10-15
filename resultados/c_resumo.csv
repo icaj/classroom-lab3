@@ -1,0 +1,3 @@
+forma,dados,metrica,incorreto,corrigido,diferenca,unidade,informacao_indevida
+2,"Wine Quality real, c_dev (treino+val. da B2)",acurácia em c_aval,1.0,0.89937106918239,10.062893081761004,p.p.,coluna quality (origem do alvo) como 12ª entrada
+4,"Wine Quality real, c_dev (treino+val. da B2), 10 sementes",acurácia média na avaliação interna,0.9084375,0.8791499357960187,2.9287564203981287,p.p. (média de 10),perfis idênticos no treino e na avaliação

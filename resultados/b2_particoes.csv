@@ -1,0 +1,4 @@
+conjunto,linhas,% das linhas,positivos,negativos,proporcao_positiva,perfis
+treino,961,60.1,139,822,0.1446,815
+validacao,318,19.9,33,285,0.1038,272
+teste,320,20.0,45,275,0.1406,272

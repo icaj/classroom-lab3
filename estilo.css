@@ -1,0 +1,124 @@
+/* Estilo compartilhado dos artefatos HTML — gerado pelo course-builder (CESAR) */
+/* Tema escuro CESAR. A cor de acento (--accent) é o valor padrão; o agente que
+   consome esta skill sobrescreve --accent (e derivados) a partir de
+   spec.branding.cor_acento via um bloco :root no <head> do documento. */
+:root{
+  --bg:#0f1115; --panel:#161922; --panel-2:#1c2030; --ink:#e7e9ee; --muted:#9aa3b2;
+  --line:#272c3a; --accent:#e2231a; --accent-soft:#ff5a4d; --accent-2:#5b8cff;
+  --code-bg:#0b0d12; --ok:#3ecf8e; --warn:#f5a623;
+  --radius:12px; --maxw:920px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;}
+main{max-width:var(--maxw);margin:0 auto;padding:40px 28px 80px}
+a{color:var(--accent-2);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Hero */
+header.hero{border:1px solid var(--line);background:linear-gradient(160deg,var(--panel-2),var(--panel));
+  border-radius:var(--radius);padding:30px 30px 24px;margin-bottom:28px;position:relative;overflow:hidden}
+header.hero::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;
+  background:linear-gradient(90deg,var(--accent),var(--accent-soft))}
+header.hero .kicker{color:var(--accent-soft);font-weight:700;letter-spacing:1px;text-transform:uppercase;font-size:12px}
+header.hero h1{font-size:27px;line-height:1.2;margin:10px 0 6px}
+header.hero p.sub{font-size:17px;color:var(--muted);margin:0 0 16px}
+.meta{display:flex;flex-wrap:wrap;gap:8px}
+.pill{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:5px 11px;border-radius:999px;font-size:12.5px}
+.pill b{color:var(--accent-soft)}
+
+h2{font-size:21px;margin:34px 0 14px;padding-top:18px;border-top:1px solid var(--line);display:flex;gap:10px;align-items:baseline}
+h2 .ico{color:var(--accent)}
+h3{font-size:17px;margin:22px 0 8px;color:#fff}
+h4{font-size:14px;margin:16px 0 6px;color:var(--accent-soft);text-transform:uppercase;letter-spacing:.4px}
+p{margin:9px 0}
+ul,ol{padding-left:22px}li{margin:4px 0}
+
+blockquote{margin:14px 0;padding:12px 16px;background:var(--panel);border-left:4px solid var(--accent);border-radius:0 10px 10px 0}
+blockquote.note{border-left-color:var(--accent-2)}
+blockquote.rule{border-left-color:var(--warn)}
+blockquote p{margin:5px 0}
+
+.tablewrap{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{background:var(--panel-2);color:#fff;font-weight:700}
+tbody tr:last-child td{border-bottom:none}
+td strong{color:var(--accent-soft)}
+
+code{font-family:"SF Mono",Consolas,"Roboto Mono",monospace;font-size:13px;background:var(--panel-2);padding:2px 6px;border-radius:6px;color:#ffd9d6}
+pre{background:var(--code-bg);border:1px solid var(--line);border-radius:10px;padding:15px 17px;overflow-x:auto;margin:13px 0}
+pre code{background:none;padding:0;color:#d7dcea;font-size:12.5px;line-height:1.55}
+
+/* Timeline minuto-a-minuto */
+.timeline{margin:16px 0}
+.bloco{display:grid;grid-template-columns:120px 1fr;gap:0;border:1px solid var(--line);border-radius:12px;margin:12px 0;overflow:hidden;background:var(--panel)}
+.bloco-time{background:var(--panel-2);padding:14px 14px;border-right:1px solid var(--line)}
+.bloco-time .hora{font-weight:800;font-size:15px;color:#fff;font-variant-numeric:tabular-nums}
+.bloco-time .dur{display:inline-block;margin-top:6px;font-size:11.5px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:2px 8px}
+.bloco-body{padding:14px 16px}
+.bloco-body .bloco-title{font-weight:700;color:var(--accent-soft);margin:0 0 8px;font-size:15px}
+.bloco-body ul{margin:6px 0;padding-left:18px}
+.bloco-body .min{color:var(--muted);font-variant-numeric:tabular-nums;font-size:12.5px;margin-right:4px}
+.bloco.pausa{opacity:.75}
+.bloco.pausa .bloco-time{background:#13160f}
+
+/* Tags de papel */
+.tag{font-size:11px;padding:2px 8px;border-radius:999px;font-weight:700;white-space:nowrap}
+.t-auto{background:rgba(62,207,142,.15);color:var(--ok);border:1px solid rgba(62,207,142,.35)}
+.t-hitl{background:rgba(245,166,35,.15);color:var(--warn);border:1px solid rgba(245,166,35,.4)}
+.t-inst{background:rgba(91,140,255,.15);color:var(--accent-2);border:1px solid rgba(91,140,255,.4)}
+.t-aluno{background:rgba(226,35,26,.13);color:var(--accent-soft);border:1px solid rgba(226,35,26,.4)}
+
+.check li{list-style:none}
+.check{padding-left:2px}
+.check li::before{content:"☐ ";color:var(--accent-soft)}
+
+footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;font-style:italic}
+.nav-aulas{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 0}
+
+/* Roteiro do instrutor */
+.secao{margin:32px 0 10px;padding:12px 16px;background:var(--panel-2);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:0 10px 10px 0}
+.secao h2{border-top:none;margin:0;padding:0;font-size:19px}
+.roteiro-slide{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:4px 18px 16px;margin:14px 0}
+.roteiro-slide .cab{display:flex;align-items:center;gap:10px;margin:14px 0 6px;flex-wrap:wrap}
+.slide-badge{background:var(--accent);color:#fff;font-weight:800;font-size:12px;padding:3px 10px;border-radius:8px;white-space:nowrap}
+.roteiro-slide h3{margin:0;font-size:16px;color:#fff}
+.roteiro-slide .tempo{color:var(--muted);font-size:12px;margin-left:auto;font-variant-numeric:tabular-nums}
+.roteiro-slide p{margin:9px 0}
+.diga{border-left:3px solid var(--accent-2);background:rgba(91,140,255,.08);padding:9px 13px;border-radius:0 8px 8px 0;margin:10px 0;font-style:italic;color:#dfe6ff}
+.diga::before{content:"🗣️ ";font-style:normal}
+.nota-inst{border-left:3px solid var(--warn);background:rgba(245,166,35,.08);padding:8px 12px;border-radius:0 8px 8px 0;margin:10px 0;font-size:14px}
+.nota-inst b{color:var(--warn)}
+.passo{display:grid;grid-template-columns:32px 1fr;gap:10px;margin:11px 0;align-items:start}
+.passo .n{background:var(--panel-2);border:1px solid var(--line);border-radius:8px;text-align:center;font-weight:800;color:var(--accent-soft);padding:4px 0}
+
+/* Portal do instrutor */
+.portal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px;margin:18px 0}
+.aula-card{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:18px;position:relative;overflow:hidden}
+.aula-card::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent-soft))}
+.aula-card .num{font-size:12px;font-weight:800;color:var(--accent-soft);letter-spacing:1px;text-transform:uppercase}
+.aula-card h3{margin:6px 0 2px;font-size:17px;color:#fff}
+.aula-card .data{color:var(--muted);font-size:13px;margin-bottom:12px}
+.reslinks{display:flex;flex-direction:column;gap:6px}
+.reslink{display:flex;align-items:center;gap:8px;padding:8px 11px;background:var(--panel-2);border:1px solid var(--line);border-radius:9px;font-size:14px;color:var(--ink)}
+.reslink:hover{border-color:var(--accent);text-decoration:none}
+.reslink .ic{width:20px;text-align:center}
+.reslink .sub{color:var(--muted);font-size:12px;margin-left:auto}
+.geral{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.geral a{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;font-size:13.5px;color:var(--ink)}
+.geral a:hover{border-color:var(--accent);text-decoration:none}
+
+@media (max-width:680px){
+  .bloco{grid-template-columns:1fr}
+  .bloco-time{border-right:none;border-bottom:1px solid var(--line)}
+  main{padding:24px 16px}
+}
+@media print{
+  :root{--bg:#fff;--ink:#111;--muted:#444;--panel:#fff;--panel-2:#f2f2f2;--line:#ccc;--code-bg:#f6f6f6}
+  body{font-size:11pt}
+  .bloco,.tablewrap,pre,blockquote{break-inside:avoid}
+  a{color:#000;text-decoration:underline}
+}

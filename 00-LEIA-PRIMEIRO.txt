@@ -1,0 +1,15 @@
+LAB 2 — MATERIAL PARA A TURMA
+
+1. Leia ENUNCIADO.pdf (ou abra ENUNCIADO.html no navegador).
+2. Veja dados/DICIONARIO.md e dados/FONTE-E-LICENCA.md.
+3. Abra lab02.ipynb e siga a sequência de atividades.
+4. Preencha README.md e USO-DE-IA.md com seu trabalho individual.
+
+A base CSV já está incluída. Não é preciso login no Kaggle nem GPU.
+O notebook inicial tem tarefas TODO: as mensagens de pendência não são resultados.
+Prazo: 08/10/2026; horário definido na atividade do Classroom.
+Entrega: repositório pessoal, pasta lab-02/, com link no Classroom.
+
+Para abrir o HTML, mantenha os dois arquivos CSS na mesma pasta.
+Para executar o notebook, mantenha apoio.py e dados/ na pasta de trabalho.
+O enunciado explica instalação local e uso no Colab.
