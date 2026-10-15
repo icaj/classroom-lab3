@@ -6,7 +6,7 @@ Declare se utilizou IA. Se não utilizou, escreva explicitamente “Não utilize
 
 | Ferramenta/modelo | Finalidade e pedido | Trecho ou ideia aproveitada | Como verifiquei | O que descartei e por quê |
 |---|---|---|---|---|
-| Claude | Ajuda na implementação do B2 |  | | |
+| Claude | Ajuda na implementação | | | |
 
 ## Declaração
 [Após revisar, registre se é capaz de explicar todas as linhas e decisões do trabalho entregue.]
